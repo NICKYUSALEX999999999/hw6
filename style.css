@@ -1,0 +1,35 @@
+.card-title{
+    color: crimson;
+    font-size: 33px;
+    font-style: italic;
+}
+.card-text{
+    color: darkblue;
+    font-size: 22px;
+    font-style: oblique;
+}
+.col{
+    margin: 20px;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding:0;
+}
+.card{
+    width:500px;
+    border: 2px solid yellow;
+    flex-wrap: wrap;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 33px;
+    background-color: lightseagreen;
+    padding: 8px;
+    margin-bottom: 30px;
+}
+.card :hover{
+    transition: all 10s;
+    background-color:black;
+    text-decoration-color: rosybrown;
+    transform: all 10s;
+}
